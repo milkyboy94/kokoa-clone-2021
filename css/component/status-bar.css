@@ -1,0 +1,30 @@
+.status-bar__column {
+  width: 33%;
+}
+.status-bar {
+  display: flex;
+  justify-content: center;
+  /* no service 부분이 길이가 길어서 시간이 딱 중앙에 안떨어짐 따라서 space-between보다는 다른 방법 채택 */
+  padding: 5px 3px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.status-bar__column:first-child span {
+  margin-right: 10px;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar__column .fa-battery-full {
+  margin: 0px 5px;
+}
