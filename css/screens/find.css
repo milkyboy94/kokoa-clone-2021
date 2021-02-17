@@ -7,8 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-weight: 600;
+
   position: absolute;
   left: -1px;
   bottom: 20px;
@@ -143,4 +142,8 @@
 .open-post__heart-count:hover i {
   will-change: transform;
   animation: heartBeat 1s linear infinite;
+}
+
+#find-view {
+  height: 300vh;
 }

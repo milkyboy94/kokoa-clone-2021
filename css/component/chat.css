@@ -17,7 +17,7 @@
 #chat-screen .status-bar {
   z-index: 2;
 }
-#chat-screen .atl-header {
+#chat-screen .alt-header {
   top: 10px;
   z-index: 1;
 }
@@ -148,13 +148,13 @@ message__info에 flex-direction: row-reverse를 통해서도 동일한 효과를
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -3px;
-  top: 2px;
+  right: 1px;
+  top: 3.5px;
 }
 
 .reply__column:last-child > i {
   right: 40px;
-  top: 10px;
+  top: 12px;
 }
 
 .reply__column:last-child button {
@@ -164,7 +164,6 @@ message__info에 flex-direction: row-reverse를 통해서도 동일한 효과를
   height: 30px;
   border-radius: 50%;
 }
-
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
@@ -181,7 +180,7 @@ message__info에 flex-direction: row-reverse를 통해서도 동일한 효과를
 
 .reply input:focus {
   width: 95vw;
-  transform: translateX(-10%) translateY(-80px);
+  transform: translateX(-13%) translateY(-80px);
 }
 
 .reply .fa-smile-wink,

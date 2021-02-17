@@ -9,6 +9,8 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
+  background-color: white;
+  z-index: 98;
 }
 
 .status-bar__column:first-child span {

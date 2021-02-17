@@ -47,18 +47,16 @@
 
 @keyframes appearBtnAnimation {
   from {
+    transform: translateY(50px);
   }
   to {
-    transform: none;
     opacity: 1;
   }
 }
 
 .nav__btn {
   animation: appearBtnAnimation 0.5s ease-in-out forwards;
-  transform: translateY(50px);
   opacity: 0;
-
   /* .nav__btn에 transform이랑 opacity가 처음에 있었을때랑
   @keyframes의 from에 있을때를 구분해서 비교해본다. */
 }
